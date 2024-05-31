@@ -19,7 +19,7 @@ jobs:
         node-version: '22'
         cache: 'npm'
     - run: npm ci
-    - run: npm run build --public-url /mirador-ghpages/
+    - run: npm run build --public-url ./
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
