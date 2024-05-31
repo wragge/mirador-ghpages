@@ -4,14 +4,16 @@
     "description": "",
     "private": true,
     "scripts": {
-      "parcel": "parcel index.html",
-      "build": "parcel build index.html --public-url ./",
+      "parcel": "parcel index.html --no-source-maps",
+      "build": "parcel build index.html --no-source-maps --public-url ./",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
       "mirador": "^3.3.0",
+      "mirador-image-tools": "^0.11.0",
+      "mirador-annotations": "^0.4.0",
       "parcel-bundler": "^1.12.4",
       "parcel-plugin-static-files-copy": "2.6.0",
       "react": "^16.13.1",
