@@ -35,4 +35,4 @@ module.exports=function(n){return new Promise(function(e,o){var r=document.creat
 },{}],0:[function(require,module,exports) {
 var b=require("z1Am");b.register("js",require("Ijyk"));b.load([]).then(function(){require("Ac87");});
 },{}]},{},[0], null)
-//# sourceMappingURL=/WindowViewer.9bb721a4.js.map
+//# sourceMappingURL=WindowViewer.9bb721a4.js.map
