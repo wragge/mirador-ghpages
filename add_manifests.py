@@ -16,7 +16,7 @@ for mf in Path("manifests").glob("*.json"):
 with Path("manifest_urls.txt").open("r") as mf_urls:
     for url in mf_urls:
         if url.startswith("http"):
-            mfs.append(f"{{{window_options}, manifestId: '{url}'}}")
+            mfs.append(f"{{{window_options}, manifestId: '{url.strip()}'}}")
 # Join all the manifests together in a single string
 mf_str = rf"windows: [{', '.join([m for m in mfs if m])}]"
 # Insert the string in the config
