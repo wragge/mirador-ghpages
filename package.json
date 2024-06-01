@@ -4,9 +4,17 @@
     "description": "",
     "private": true,
     "scripts": {
-      "parcel": "parcel index.html --no-source-maps",
-      "build": "parcel build index.html --no-source-maps --public-url ./",
+      "parcel": "parcel src/index.html --no-source-maps",
+      "build": "parcel build src/index.html --no-source-maps --public-url ./",
       "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "staticFiles": {
+    "staticPath": [
+            {
+                "staticPath": "manifests",
+                "staticOutDir": "manifests"
+            }
+        ]
     },
     "author": "",
     "license": "ISC",
