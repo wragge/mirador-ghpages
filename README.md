@@ -17,11 +17,11 @@ After a few seconds your new repository will be generated. The 'Publish website'
 1. Click on the repository's 'Settings' tab.
 2. Select 'Pages' from the left-hand menu.
 3. Under 'Build and deployment':
-  - set 'Source' to 'Deploy from a branch'
-  - set 'Branch' to 'gh-pages'
-  - click **Save**
+    - set 'Source' to 'Deploy from a branch'
+    - set 'Branch' to 'gh-pages'
+    - click **Save**
 
-Another action will now run to deploy your Mirador site to GH Pages. Once again you can check its status under the 'Actions' tab. When it's finished you'll be able to access your Mirador installation at: `https://[your GitHub user name].github.io/[your repository name]/. You can find the url by clicking on 'Deployments' from your repository's home page.
+Another action will now run to deploy your Mirador site to GH Pages. Once again you can check its status under the 'Actions' tab. When it's finished you'll be able to access your Mirador installation at: `https://[your GitHub user name].github.io/[your repository name]/`. You can find the url by clicking on 'Deployments' from your repository's home page.
 
 Any changes you make to the repository from now on will be automatically deployed to GH Pages.
 
