@@ -44,22 +44,20 @@ Once the actions have run, reload your Mirador workspace to see the manifests.
 
 ### Manifest urls
 
-You can also add default manifest urls by directly editing the Mirador configuration. 
+You can also add default manifest urls by inserting them in `manifest_urls.txt`.
 
-1. From your repository's home page click on the `src` folder to open it.
-2. Click on the `index.js` file to view its contents.
-3. Click on the pencil icon to edit the file.
-4. Look for the line `windows: [],`.
-5. Insert the urls into the `windows` array, for example:  `windows: [{manifestId: 'https://purl.stanford.edu/sn904cj3429/iiif/manifest'}]`
-6. Click on the green **Commit changes** button.
+1. From your repository's home page click on the `manifest_urls.txt` file to open it.
+2. Click on the pencil icon to edit the file.
+3. Insert manifest urls ­– one per line.
+4. Click on the green **Commit changes** button.
 
-A new version of your Mirador workspace will be automatically built and deployed.
+A new version of your Mirador workspace will be automatically built and deployed. The urls are read from the file and inserted in the Mirador config.
 
 ## Mirador versions and plugins
 
 This repository uses Mirador 3 which is nearing the end of its lifespan. Mirador 4 is in alpha release. Once it's ready I'll create a new Mirador 4 template.
 
-The [Mirador Image Tools](https://github.com/ProjectMirador/mirador-image-tools) plugin is installed by default, though the image tools aren't displayed in the workspace. To display them click on the window's options icon and select 'Show image tools'.
+The [Mirador Image Tools](https://github.com/ProjectMirador/mirador-image-tools) plugin is installed by default.
 
 I've also included the [Mirador Annotations](https://github.com/ProjectMirador/mirador-annotations) plugin as part of the package, but haven't initialised it in the Mirador config. Uncomment the annotations-related lines in the Mirador config to enable annotations using your browser's local storage.
 
