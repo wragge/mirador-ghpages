@@ -1,6 +1,6 @@
 # Mirador on GH Pages
 
-This repository deploys a basic installation of Mirador 3 on GitHub Pages.
+This repository deploys a basic installation of [Mirador](https://projectmirador.org/) 3 on GitHub Pages.
 
 ## Intended use case
 
@@ -27,7 +27,7 @@ Any changes you make to the repository from now on will be automatically deploye
 
 ## Adding default manifests
 
-You can set default manifests by either uploading local manifests to the repository, or by adding manifest urls to the config file.
+You can set default manifests by either uploading local manifests to the repository, or by adding manifest urls to the `manifest_urls.txt` file.
 
 ### Local manifests
 
